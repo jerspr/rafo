@@ -1,0 +1,27 @@
+[13-Aug-2013 07:01:06 UTC] PHP Warning:  simplexml_load_file(http://raforaez.blogspot.com/feeds/posts/default) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: Connection timed out in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[13-Aug-2013 07:01:06 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://raforaez.blogspot.com/feeds/posts/default&quot; in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[13-Aug-2013 07:01:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/raforaez/public_html/appx/loadnoticias.php on line 5
+[15-Nov-2013 19:57:47 UTC] PHP Warning:  simplexml_load_file(http://raforaez.blogspot.com/feeds/posts/default) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed! HTTP/1.0 503 Service Unavailable
+ in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[15-Nov-2013 19:57:47 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://raforaez.blogspot.com/feeds/posts/default&quot; in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[15-Nov-2013 19:57:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/raforaez/public_html/appx/loadnoticias.php on line 5
+[19-Jan-2014 13:56:41 UTC] PHP Warning:  simplexml_load_file(http://raforaez.blogspot.com/feeds/posts/default) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed! HTTP/1.0 503 Service Unavailable
+ in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[19-Jan-2014 13:56:41 UTC] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://raforaez.blogspot.com/feeds/posts/default&quot; in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[19-Jan-2014 13:56:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/raforaez/public_html/appx/loadnoticias.php on line 5
+[09-Dec-2015 03:00:24 America/Lima] PHP Warning:  simplexml_load_file(http://raforaez.blogspot.com/feeds/posts/default) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed! HTTP/1.0 503 Service Unavailable
+ in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[09-Dec-2015 03:00:24 America/Lima] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://raforaez.blogspot.com/feeds/posts/default&quot; in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[09-Dec-2015 03:00:24 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/raforaez/public_html/appx/loadnoticias.php on line 5
+[10-Dec-2015 09:00:21 America/Lima] PHP Warning:  simplexml_load_file(http://raforaez.blogspot.com/feeds/posts/default) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed! HTTP/1.0 503 Service Unavailable
+ in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[10-Dec-2015 09:00:21 America/Lima] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://raforaez.blogspot.com/feeds/posts/default&quot; in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[10-Dec-2015 09:00:21 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/raforaez/public_html/appx/loadnoticias.php on line 5
+[11-Dec-2015 09:00:21 America/Lima] PHP Warning:  simplexml_load_file(http://raforaez.blogspot.com/feeds/posts/default) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed! HTTP/1.0 503 Service Unavailable
+ in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[11-Dec-2015 09:00:21 America/Lima] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://raforaez.blogspot.com/feeds/posts/default&quot; in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[11-Dec-2015 09:00:21 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/raforaez/public_html/appx/loadnoticias.php on line 5
+[17-Dec-2015 15:00:31 America/Lima] PHP Warning:  simplexml_load_file(http://raforaez.blogspot.com/feeds/posts/default) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: HTTP request failed! HTTP/1.0 503 Service Unavailable
+ in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[17-Dec-2015 15:00:31 America/Lima] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://raforaez.blogspot.com/feeds/posts/default&quot; in /home/raforaez/public_html/appx/loadnoticias.php on line 2
+[17-Dec-2015 15:00:31 America/Lima] PHP Warning:  Invalid argument supplied for foreach() in /home/raforaez/public_html/appx/loadnoticias.php on line 5

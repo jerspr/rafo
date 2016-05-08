@@ -1,0 +1,422 @@
+/* html, body, tipografia */
+html { font-size:100.01%; }
+body { font-size: 12px; color: #EECDA1; margin:0; text-align:center; font-family:Verdana, Geneva, sans-serif, Kalimati; background-color:#000; background-repeat:no-repeat; background-position:center top }
+body#inicio { background-image:url(../img/bgindex.jpg) }
+body#discografia { background-image:url(../img/bgdiscografia.jpg) }
+body#shows { background-image:url(../img/bgshows.jpg) }
+/* encabezados */
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #111; text-align:left }
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em }
+h2 { font-size: 2em; margin-bottom: 0.75em }
+h3 { font-size: 1.5em; line-height: 1; margin-bottom: 1em }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 1.25em }
+h5 { font-size: 1em; font-weight: bold; margin-bottom: 1.5em }
+h6 { font-size: 1em; font-weight: bold }
+
+h1 img, h2 img, h3 img,
+h4 img, h5 img, h6 img { margin: 0 }
+
+/* elementos de texto */
+p           { margin: 0 0 1.5em }
+p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0 }
+p img.right { float: right; margin: 1.5em 0 1.5em 1.5em }
+
+a:focus,
+a:hover     { color: #53CAA1; text-decoration: underline; outline:0 none }
+a:link 		{ outline:0 none }
+a           { color: #fff; text-decoration:none }
+/*:outline	{ border:0 none }*/
+
+blockquote  { margin: 1.5em; color: #666; font-style: italic }
+strong      { font-weight: bold }
+em,dfn      { font-style: italic }
+dfn         { font-weight: bold }
+sup, sub    { line-height: 0 }
+
+abbr,
+acronym     { border-bottom: 1px dotted #666 }
+address     { margin: 0 0 1.5em; font-style: italic }
+del         { color:#666 }
+
+pre         { margin: 1.5em 0; white-space: pre }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5 }
+/* listas */
+li ul,
+li ol       { margin: 0; }
+ul, ol      { margin: 0; padding: 0 }
+
+ul          { list-style-type: disc }
+ol          { list-style-type: decimal }
+
+dl          { margin: 0 0 1.5em 0 }
+dl dt       { font-weight: bold }
+dd          { margin-left: 1.5em}
+/* tablas */
+
+table       { margin-bottom: 1.4em; width:100% }
+th          { font-weight: bold }
+thead th    { background: #c3d9ff; }
+th,td,caption { padding: 4px 10px 4px 5px }
+tr.even td  { background: #e5ecf9 }
+tfoot       { font-style: italic }
+caption     { background: #eee }
+/* clases especificas */
+.small      { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em }
+.large      { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em }
+.hide       { display: none!important }
+
+.first      { margin-left:0; padding-left:0 }
+.last       { margin-right:0; padding-right:0 }
+.top        { margin-top:0; padding-top:0 }
+.bottom     { margin-bottom:0; padding-bottom:0 }
+/* parrila */
+div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12 {float:left;margin-right: 12px }
+
+div.last { margin-right: 0 }
+
+.span-1  { width: 69px}
+.span-2  { width: 150px}
+.span-3  { width: 231px}
+.span-4  { width: 312px}
+.span-5  { width: 393px}
+.span-6  { width: 474px}
+.span-7  { width: 555px}
+.span-8  { width: 636px}
+.span-9  { width: 717px}
+.span-10 { width: 798px}
+.span-11 { width: 879px}
+.span-12, div.span-12 { width: 960px; margin: 0 }
+
+/* herramientas */
+.clear { clear:both }
+
+/* elementos de formulario */
+label       { font-weight: bold }
+fieldset    { padding:1.4em; margin: 0 0 1.5em 0; border: 1px solid #ccc }
+legend      { font-weight: bold; font-size:1.2em }
+
+input[type=text], input[type=password],
+input.text, input.title,
+textarea, select {
+  background-color:#fff;
+  border:1px solid #bbb
+}
+input[type=text]:focus, input[type=password]:focus,
+input.text:focus, input.title:focus,
+textarea:focus, select:focus {
+  border-color:#666
+}
+
+input[type=text], input[type=password],
+input.text, input.title,
+textarea, select {
+  margin:0.5em 0
+}
+
+input.text,
+input.title   { width: 300px; padding:5px }
+input.title   { font-size:1.5em }
+textarea      { width: 390px; height: 250px; padding:5px }
+
+input[type=checkbox], input[type=radio],
+input.checkbox, input.radio {
+  position:relative; top:.25em
+}
+
+/* sprite */
+ul#menu-principal li a,
+#logo a,
+#ico-youtube,
+#ico-mysapce,
+#ico-facebook,
+#ico-flickr,
+#ico-espana,
+#ico-inglaterra,
+#enlace-claves,
+#enlace-discografia,
+#enlace-bonus,
+#enlace-show,
+/*h2#titulo-claves,*/
+/*h2#titulo-noticias,*/
+#unipersonal-f,
+#paranoias,
+#raforaez,
+#komuna,
+#blogspot,
+#tuwebperu,
+#unete-komuna,
+a#bio,
+#texto-referencial,
+/*h2#titulo-discos,*/
+#show-tipo,
+#disco-tema,
+#unipersonal{ background-image:url(../img/sprite-global.png); background-repeat:no-repeat }
+#kaizen-a { background-image:url(../img/kaizen.png); background-repeat:no-repeat  }
+
+/* inicio */
+#cabecera{ width:100%; margin:0 auto; padding:0 0 20px; overflow:hidden }
+	#bg-menu-social{ width:100%; overflow:hidden; background-color:#1f1607 }
+	#menu-social{ position:relative; width:960px; margin:0 auto; height:39px; overflow:hidden }
+		#player-flash{ position:absolute; left:0; top:0; z-index:2; width:188px; height:39px; background-color:#fff }
+		ul#menu-principal{ position:absolute; left:210px; top:10px; z-index:2; width:517px; height:17px; overflow:hidden }
+		ul#menu-principal li{ float:left; height:17px; list-style:none }
+		ul#menu-principal li a{ display:block; overflow:hidden; height:17px }
+		ul#menu-principal li a span{ display:none }
+		ul#menu-principal li.inicio a{ width:64px; background-position:0 -119px }
+		ul#menu-principal li.discografia a{ width:120px; background-position:-64px -119px }
+		ul#menu-principal li.claves a{ width:170px; background-position:-184px -119px }	
+		ul#menu-principal li.shows a{ width:63px; background-position:-354px -119px }
+		ul#menu-principal li.bonus a{ width:62px; background-position:-417px -119px }
+		ul#menu-principal li.contacto a{ width:96px; background-position:-479px -119px }
+		ul#menu-principal li.inicio a:hover,
+		ul#menu-principal li.inicio a.activo{ background-position:0 -136px }
+		ul#menu-principal li.discografia a:hover,
+		ul#menu-principal li.discografia a.activo{ background-position:-64px -136px }
+		ul#menu-principal li.claves a:hover,
+		ul#menu-principal li.claves a.activo{ background-position:-184px -136px }	
+		ul#menu-principal li.shows a:hover,
+		ul#menu-principal li.shows a.activo{ background-position:-354px -136px }
+		ul#menu-principal li.bonus a:hover,
+		ul#menu-principal li.bonus a.activo{ background-position:-417px -136px }
+		ul#menu-principal li.contacto a:hover,
+		ul#menu-principal li.contacto a.activo{ background-position:-479px -136px }		
+		#ico-youtube,
+		#ico-mysapce,
+		#ico-facebook,
+		#ico-flickr,
+		#ico-espana,
+		#ico-inglaterra,
+		#recomendar{position:absolute; z-index:2; display:block }  
+		#ico-youtube{ width:24px; height:25px; top:7px; left:719px; background-position:0 -174px }
+		a#ico-youtube:hover{ background-position:0 -209px }
+		#ico-mysapce{ width:24px; height:25px; top:7px; left:754px; background-position:-32px -174px }
+		a#ico-mysapce:hover{ background-position:-32px -209px }		
+		#ico-facebook{ width:13px; height:26px; top:6px; left:790px; background-position:-66px -173px }
+		a#ico-facebook:hover{ background-position:-66px -208px }
+		#ico-flickr{ width:24px; height:12px; top:14px; left:812px; background-position:-89px -187px; }
+		a#ico-flickr:hover{ background-position:-89px -222px; }
+		#ico-espana{ width:23px; height:16px; top:14px; left:891px;background-position:-123px -183px; }
+		#ico-inglaterra{ width:23px; height:16px; top:14px; left:927px; background-position:-159px -183px; }   
+		#recomendar{ width:115px; height:25px; top:10px; right:0; color:#fff }
+		#iframe-like{border:none; color:#fff; background-color:#1F1607; width:240px; height:25px; overflow:hidden }
+#logo-banner{ width:960px; margin:0 auto; padding:43px 0 0 ; height:101px; overflow:hidden }
+	#logo,
+	#logo a{ width:230px; height:99px; overflow:hidden }
+	#logo{ margin:0; padding:0; float:left }
+	#logo a{ display:block; background-position:0 0 }
+	#logo a span{ display:none }
+	.banner-660x90{ width:660px; margin:4px 24px 0 0; height:90px; float:right; /*border:1px solid #E5E2E2*/ } 
+	
+#logo-banner{ width:960px; overflow:hidden }
+
+
+
+#contenido-inicio{ position:relative; background:url(../img/bg-violin.png) center bottom no-repeat; width:960px; margin:0 auto; overflow:hidden; height:633px; padding:0 33px }
+#player-index{ position:absolute; left:361px; top:150px; z-index:2; width:310px; height:297px}
+#enlace-claves,
+#enlace-discografia,
+#enlace-bonus,
+#enlace-show,
+h2#titulo-claves,
+h2#titulo-noticias,
+h2#titulo-discos,
+#ancla-claves{ display:block; position:absolute; z-index:2 }
+#enlace-claves span,
+#enlace-discografia span,
+#enlace-bonus span,
+#enlace-show span,
+h2#titulo-claves span,
+h2#titulo-noticias span,
+h2#titulo-discos span{ display:none }
+#enlace-claves{ width:288px; height:18px; left:373px; top:95px; background-position:0 -249px }
+a#enlace-claves:hover{ background-position:0 -271px }
+#enlace-discografia{ width:190px; height:22px; left:137px; top:279px; background-position:0 -291px }
+a#enlace-discografia:hover{ background-position:0 -315px }
+#enlace-bonus{  width:91px; height:18px; left:465px; top:490px; background-position:0 -342px }
+a#enlace-bonus:hover{ background-position:0 -364px }
+#enlace-show{ width:95px; height:18px; left:710px; top:288px; background-position:0 -386px }
+a#enlace-show:hover{ background-position:0 -408px }
+#ancla-claves{ width:500px; height:1px; overflow:hidden; left:0; top:545px }
+
+h2#titulo-claves,
+h2#titulo-noticias,
+h2#titulo-discos{ margin:0; padding:0 }
+h2#titulo-claves{ width:271px; height:18px; left:91px; top:592px/*; background-position:0 -441px*/ }
+h2#titulo-noticias{ width:131px; height:18px; left:707px; top:592px/*; background-position:0 -464px*/ }
+h2#titulo-discos{ width:191px; height:22px; left:71px; top:56px/*; background-position:-769px -311px*/ }
+
+#cnt-texto{ width:960px; padding:0 33px 20px; margin:0 auto; overflow:hidden; /*background:url(../img/bg-texto.jpg) center top;*/ /*height:483px; overflow:hidden*/ }
+#claves-texto{ width:600px; float:left; padding:0 0 0 19px; overflow:hidden }
+#claves-texto ul{ padding:20px 0 0; width:600px; overflow:hidden; background:url(../img/line-ul.jpg) left bottom no-repeat }
+#claves-texto ul li{ font-size:14px; list-style:none; text-align:left; padding:0 0 20px; width:600px; overflow:hidden; font-family:Verdana, Geneva, sans-serif, Kalimati }
+#claves-texto ul li span.contador{ display:block; float:left; width:45px; padding:0 0 0 18px; font-size:30px; line-height:100%; vertical-align:top }
+#claves-texto ul li span.clave-detalle{ display:block; float:left; width:537px; float:right; line-height:140% }
+span#cnt-bio{ display:block; padding:15px 0 0; width:100%; overflow:hidden }
+a#bio{ display:block; width:56px; height:23px; background-position:right -160px; float:right }
+a#bio:hover{ background-position:right -187px }
+
+#noticias-texto{ width:303px; overflow:hidden; float:right; padding:18px 6px 0 0; font-family:Arial, Helvetica, sans-serif, Garuda  }
+.noticias{ width:271px; position:relative; overflow:hidden; text-align:left; line-height:100%; padding:6px 0 6px 20px }
+.rojo,
+#noticias-texto .rojo a{ color:#9D2616 }
+.verde,
+#noticias-texto .verde a{ color:#295038 }
+#noticias-texto .linea-baja{ background:url(../img/line-noticias.png) 20px bottom no-repeat; padding:6px 0 20px 20px  }
+#noticias-texto p.enlace-noticias{ padding:10px 0 10px 20px; margin:0; text-align:left  }
+#noticias-texto p.enlace-noticias,
+#noticias-texto p.enlace-noticias a,
+#noticias-texto p.enlace-noticias:hover{ color:#432809 }
+#noticias-texto a.noticias-mas{ position:absolute; right:0; bottom:6px; font-size:10px; text-decoration:underline }
+#noticias-texto a.noticias-mas,
+#noticias-texto a.noticias-mas:hover{ color:#DFA56D }
+
+#unete-komuna{ display:block; width:303px; height:150px; background-position:right top }
+
+#footer{ position:relative; width:960px; padding:0 33px; margin:0 auto; overflow:hidden; background:url(../img/bg-footer.jpg) no-repeat center top; height:194px; overflow:hidden; color:#8D7648; font-size:11px }
+#footer p{ text-align:left; padding:15px 0 0 9px }
+#unipersonal-f,
+#paranoias,
+#raforaez,
+#komuna,
+#blogspot,
+#tuwebperu,
+#kaizen-a{ display:block; position:absolute; z-index:2 }
+#unipersonal-f{ width:119px; height:62px; left:52px; bottom:51px; background-position:0 -514px; cursor:default }
+#paranoias{  width:145px; height:38px; left:201px; bottom:60px; background-position:-149px -530px; cursor:default }
+#raforaez{  width:138px; height:91px; left:370px; bottom:29px; background-position:-318px -509px; cursor:default }
+#komuna{  width:131px; height:36px; left:531px; bottom:54px; background-position:-479px -537px; cursor:default }
+#blogspot{  width:126px; height:65px; left:699px; bottom:46px; background-position:-647px -517px; cursor:default }
+#tuwebperu{  width:122px; height:53px; left:849px; bottom:51px; background-position:-797px -523px }
+#kaizen-a{  width:136px; height:42px; left:849px; bottom:51px; background-position:0 0 }
+#kaizen-a:hover{ background-position:0 -51px }
+#unipersonal-f #img-h-1,
+#paranoias #img-h-2,
+#raforaez #img-h-3,
+#komuna #img-h-4,
+#blogspot #img-h-5{ background-image:url(../img/imgs-hover.jpg); background-repeat:no-repeat; position:absolute; z-index:3; width:133px; height:94px; border:3px solid #D0D0D0 }
+#unipersonal-f #img-h-1{ background-position:0 0; left:0; top:-10px }
+#paranoias #img-h-2 { background-position:-134px 0; left:3px; top:-25px }
+#raforaez #img-h-3 { background-position:-268px 0; left:0; top:-3px }
+#komuna #img-h-4 { background-position:-402px 0; left:0; top:-32px }
+#blogspot #img-h-5 { background-position:-536px 0; left:0; top:-12px }
+#unipersonal-f #img-h-1,
+#paranoias #img-h-2,
+#raforaez #img-h-3,
+#komuna #img-h-4,
+#blogspot #img-h-5{ display:none }
+#unipersonal-f:hover #img-h-1,
+#paranoias:hover #img-h-2,
+#raforaez:hover #img-h-3,
+#komuna:hover #img-h-4,
+#blogspot:hover #img-h-5{ display:block }
+
+#texto-referencial{ background-position:-366px -360px; width:613px; height:100px; margin:5px 80px 0 0; float:right }
+#texto-referencial span{ display:none }
+
+ul#lista-discos{ width:420px; padding:55px 0 40px 258px; overflow:hidden; float:left }
+ul#lista-discos li{ list-style:none; width:125px; min-height:119px; margin:0 0 0 10px; padding:0 0 10px; float:left }
+#contenido-discos { margin:0 auto; overflow:hidden; position:relative; width:960px }
+#detalle-discos{ width:960px; position:relative; clear:both; padding:91px 0 0; background:url(../img/bg-t-discos.png) center top no-repeat; overflow:hidden }
+*:first-child+html #detalle-discos{ padding-top:111px }
+.cnt-disco{ width:960px; overflow:hidden; margin:0 auto; text-align:left; padding:0 0 20px; margin:20px 0 0; background:url(../img/linea-cnt-discos.gif) center bottom no-repeat }
+.cnt-disco.ultimo{ background:none }
+.cnt-disco .span-3{ width:215px }
+.cnt-disco .span-5{ width:409px }
+.anio-disco{ font-size:14px}
+.anio-disco p{ line-height:128.5%; padding:0 10px 0 0 }
+.cnt-disco h3{ font-family:Verdana, Arial, Helvetica, sans-serif, Kalimati; font-weight:bold; font-size:18px; color:#fff; text-transform:uppercase }
+.anio{ font-weight:bold; font-size:30px; letter-spacing:-1px; line-height:100%; padding:0 0 20px; display:block; color:#fff }
+.anio p{ line-height:128% }
+.cnt-disco h4{ color:#9D2717; font-size:20px; text-transform:uppercase }
+.detalle-album{ font-size:12px; color:#9D2717 }
+.detalle-album p{ line-height:116% }
+.texto-enlace{ font-size:18px; font-weight:bold; position:absolute; left:688px; top:375px; z-index:2; width:180px; overflow:hidden; display:block; text-align:left; line-height:133% }
+.texto-enlace,
+.texto-enlace a{ color:#fff}
+.texto-enlace a{ text-transform:uppercase; text-decoration:underline }
+.img-disco span{ padding:0 0 0 5px }
+
+#show-tipo,
+#disco-tema,
+#unipersonal{ display:block; position:absolute; z-index:2 }
+#show-tipo span,
+#disco-tema span,
+#unipersonal span{ display:none }
+#show-tipo{ width:257px; height:39px; left:385px; top:90px; background-position:-262px 0 }
+a#show-tipo:hover{ background-position:-262px -49px }
+#disco-tema{ width:162px; height:42px; left:150px; top:279px; background-position:-798px -245px }
+a#disco-tema:hover{ background-position:-626px -245px }
+#unipersonal{  width:197px; height:18px; left:710px; top:296px; background-position:-419px -270px }
+a#unipersonal:hover{ background-position:-419px -242px }
+
+#contenido-shows { margin:0 auto; overflow:hidden; padding:480px 33px 0; position:relative; width:960px }
+.cnt-shows{ width:960px; overflow:hidden; clear:both }
+.videos-shows{ padding:111px 0 0; width:300px }
+.videos-shows h4{ color:#CB2104; font-size:14px; padding:0 10px; text-transform:uppercase }
+.videos-shows p{ color:#fff; margin:0 0 10px; text-align:left; line-height:129%; font-size:14px; padding:0 10px }
+.videos-shows p a{ color: #CB2104}
+#contenido-shows form{ width:256px; overflow:hidden; margin:0; /*background-color:#000;*/ padding:0 15px; margin-bottom:30px}
+#contenido-shows form input{ background-color:#B21C04; width:246px; border:0 none; padding:4px 4px; color:#fff; font-weight:bold; font-size:10px }
+#contenido-shows form select { border:1px solid #B31D04; width:254px; padding:4px 0; font-weight:bold; font-size:10px; color:#B31D04 }
+.video-shows{ text-align:left; margin:0 0 15px }
+.video-shows.margen-bajo{padding:0 0 20px }
+
+.cnt-detalle-shows{ text-align:left }
+.cnt-detalle-shows h3{ color:#fff; font-size:24px; margin-top:15px; font-weight:bold; padding-left:12px }
+.cnt-lista-banda{ width:100%; overflow:hidden; background:url(../img/linea-banda.gif) 12px bottom no-repeat; padding:0 0 20px 12px }
+.cnt-lista-banda.ultimo{ background:none }
+ul.lista-banda{ float:left; width:295px; overflow:hidden; margin:0 5px 0 0}
+ul.lista-banda li{ list-style:none; padding:0 0 0 10px; display:block; background:url(../img/li-banda.gif) 0 9px no-repeat }
+h2#titulo-show-banda{ width:636px; height:159px; margin:0; padding:0; background:url(../img/bg_showtipo.png) left bottom no-repeat }
+h2#titulo-show-disco{ width:636px; height:130px; margin:0 0 20px; padding:0; background:url(../img/bg_shows_disco.png) left bottom no-repeat }
+h2#titulo-unipersonal{ width:636px; height:80px; margin:0 0 20px; padding:0; background:url(../img/bg_shows_uni.png) left bottom no-repeat }
+h2#titulo-show-banda span,
+h2#titulo-show-disco span,
+h2#titulo-unipersonal span{ display:none }
+.tematicos{ width:100%; overflow:hidden; padding:0 0 10px }
+.img-tematicos{ width:72px; float:left; margin:0 20px 0 0}
+.detalle-tematicos{ width:530px; float:left; margin:0; padding:0 }
+.detalle-tematicos span{ font-size:25px; display:block; padding:0 0 10px; color:#fff; font-weight:bold; line-height:26px }
+.detalle-tematicos p{ font-size:14px; padding:0 0 0 35px; line-height:129% }
+.show-uni{ padding:0 0 0 20px }
+.span-4.video-uni{ padding:105px 0 10px 0; width:300px }
+
+#cnt-bonus{ width:798px; height:914px; background:url(../img/bgbonus.jpg) left bottom no-repeat; overflow:hidden }
+#cabecera-b{ height:112px; background:url(../img/cabecerabonus.jpg) left bottom no-repeat; width:798px; position:relative }
+#cerra-bonus{ display:block; height:32px; width:32px; position:absolute; right:26px; top:18px; z-index:2 }
+#cerra-bonus span{ display:none }
+#contenido-bonus{ width:798px; overflow:hidden }
+#dance{ float:left; width:310px; overflow:hidden; text-align:center }
+#letras{ float:left; width:478px; overflow:hidden; text-align:center }
+#cnt-bonus h2{ font-size:24px; font-weight:bold; color:#fff; padding:0 20px; line-height:100%; margin:20px 0 0; text-align:center }
+#cnt-bonus h2.ico-dance{ background:url(../img/ico-descargas.png) center bottom no-repeat ; padding:24px 0 185px 20px }
+#cnt-bonus h2.ico-letras{ background:url(../img/ico-letras.png) 200px bottom no-repeat ; padding:0 0 190px 55px }
+#dance ul{ margin:25px 0 0; padding:0 0 0 10px}
+#dance ul li{ list-style:none; font-size:13px}
+#dance ul li a,
+ul.lista-1 li a,
+ul.lista-2 li a{ color:#EFCCA1; line-height:138%; font-size:13px; text-decoration:underline }
+.enlace-bonus{ font-size:14px; width:165px; padding:0 0 0 10px; margin:20px auto 0 }
+.enlace-bonus a{ text-decoration:underline  }
+.enlace-bonus a:hover,
+#dance ul li a:hover,
+ul.lista-1 li a:hover,
+ul.lista-2 li a:hover{ color:#A0110E }
+.cnt-lista-bonus{ width:478px; padding:0 20px 0 0; margin:20px 0 0 ; overflow:hidden }
+ul.lista-1{ float:left; width:270px; margin:0 20px 0 0}
+ul.lista-1 li{ text-align:right; list-style:none}
+ul.lista-2{ float:left; width:178px}
+ul.lista-2 li{ text-align:left; list-style:none  }
+#letras .enlace-bonus { padding:0 0 0 80px }
+#contenido-shows input#envio-data{ border:0 none; background-color:transparent; margin:5px 0 0 0; width:60px; color:#B21C04; height:25px; cursor:pointer }
+#footer-down{ background:url(../img/bg-footer.jpg) no-repeat center top; width:960px; margin:0 auto; height:80px }
+#footer-down ul{ width:600px; margin:0 auto; padding:20px 0 0 }
+#footer-down ul li{ list-style:none; font-size:14px; padding:0 20px; display:inline }
+#footer-down ul li a{ color:#664810; font-weight:bold }
+#footer-down ul li a.activo,
+#footer-down ul li a:hover{ color:#A70E0E; text-decoration:none }
+#cnt-enlace-subir{ height:20px; text-align:right; padding:0 15px 15px 0 }
+body#shows #cnt-enlace-subir{padding:100px 15px 15px 0 }
+#cnt-enlace-subir a{ color:#fff; font-size:14px; text-decoration:underline; font-weight:bold }
+#cnt-enlace-subir a:hover{ color:#A70E0E}

@@ -1,0 +1,50 @@
+/* IE. */
+sup { vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+html>body p code { *white-space: normal; }
+/*img { -ms-interpolation-mode:bicubic; }*/
+textarea { overflow:auto; }
+
+/* sprite */
+ul#menu-principal li a,
+#logo a,
+#ico-youtube,
+#ico-mysapce,
+#ico-facebook,
+#ico-flickr,
+#ico-espana,
+#ico-inglaterra,
+#enlace-claves,
+#enlace-discografia,
+#enlace-bonus,
+#enlace-show,
+/*h2#titulo-claves,*/
+/*h2#titulo-noticias,*/
+#unipersonal-f,
+#paranoias,
+#raforaez,
+#komuna,
+#blogspot,
+#tuwebperu,
+#unete-komuna,
+a#bio,
+#texto-referencial,
+/*h2#titulo-discos,*/
+#show-tipo,
+#disco-tema,
+#unipersonal{ background-image:url(../img/sprite-global.gif) }
+#contenido-inicio{ background:url(../img/bg-violin.gif) center bottom no-repeat }
+#detalle-discos{ background:url(../img/bg-t-discos.gif) center top no-repeat }
+h2#titulo-show-banda{ background:url(../img/bg_showtipo.gif) left bottom no-repeat }
+h2#titulo-show-disco{ background:url(../img/bg_shows_disco.gif) left bottom no-repeat }
+h2#titulo-unipersonal{ background:url(../img/bg_shows_uni.gif) left bottom no-repeat }
+body#bonus h2.ico-dance{ background:url(../img/ico-descargas.gif) center bottom no-repeat }
+body#bonus h2.ico-letras{ background:url(../img/ico-letras.gif) 200px bottom no-repeat }
+#kaizen-a { background-image:url(../img/kaizen.gif) }
+
+#texto-referencial,
+#lista-discos li{ display:inline }
+#detalle-discos{ padding-top:111px }
+
+
+
